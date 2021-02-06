@@ -22,9 +22,9 @@ try:
          l_ip = lijst[0]
          l_datum = lijst[3] + lijst[4]
          l_tekst=  lijst[10:]
-         print (l_ip)
-         print (l_datum)
-         print (l_tekst)
+#         print (l_ip)
+#         print (l_datum)
+#         print (l_tekst)
          cur.execute("INSERT INTO public.nginxacceslog (ip, datum, tekst) VALUES(%s, %s, %s);", (l_ip,l_datum,l_tekst))
          tel=tel+1    
          if tel == 50:
