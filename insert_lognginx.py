@@ -27,7 +27,7 @@ try:
 #         print (l_tekst)
          cur.execute("INSERT INTO public.nginxacceslog (ip, datum, tekst) VALUES(%s, %s, %s);", (l_ip,l_datum,l_tekst))
          tel=tel+1    
-         if tel == 50:
+         if tel == 55:
             tel= 1
             con.commit()
 
