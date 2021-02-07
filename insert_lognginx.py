@@ -1,5 +1,9 @@
 #! /usr/bin/python3
 # -*- coding: utf-8 -*-
+# Dagelijks de inhoud van de voorgaande acces.log naar database wegschrijven.
+# Versie 1.0 2020
+
+
 
 import string
 import psycopg2
